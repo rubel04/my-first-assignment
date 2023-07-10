@@ -1,0 +1,46 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* all section(shared)related style */
+
+.primary-btn-color {
+    background: #E55473;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    padding: 20px 43px;
+    border-style: none;
+}
+
+.primary-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+/* header related style */
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+}
+
+.header {
+    margin: 0 200px 0 200px;
+}
+
+.header-img {
+    width: 635px;
+    height: 800px;
+    margin: 50px 200px 0 0;
+}

@@ -58,22 +58,7 @@
     margin: 50px 200px 0 0;
 }
 
-/* Our Featured Flowers section strated */
-/* .folowers-content {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 200px;
-    gap: 40px;
-}
 
-
-
-.folowers-one {
-    
-}
-.pic-one{
-   
-} */
 .hot-content {
     display: flex;
     justify-content: space-between;
@@ -107,10 +92,26 @@
 .img-content {
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0 auto;
     gap: 24px;
-    /* width: 342px;
-    height: 396px; */
+    width: 342px;
+    height: 396px;
     align-items: center;
 
+}
+
+.banner-pic {
+    align-items: center;
+    width: 1440px;
+    height: 449px;
+    margin: 140px 240px;
+}
+
+.Instagram-container{
+    width: 80%;
+    
+}
+
+.instagram-content{
+    margin: 0 auto;
 }

@@ -1,8 +1,7 @@
+/* all section(shared)related style */
 * {
     font-family: 'Work Sans', sans-serif;
 }
-
-/* all section(shared)related style */
 
 .primary-btn-color {
     background: #E55473;
@@ -26,6 +25,7 @@
     font-size: 18px;
     font-weight: 400;
 }
+
 
 
 /* header related style */
@@ -59,15 +59,13 @@
 }
 
 
-
-
 /* first section style */
 .featured-folower-container {
     width: 80%;
     margin: 0 auto;
 }
 
-.folwer-title {
+.folower-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -87,9 +85,6 @@
     margin-left: 50px;
     display: flex;
     gap: 17px;
-
-
-
 }
 
 .img-primary {
@@ -99,8 +94,6 @@
     background: rgba(167, 33, 98, 0.15);
     padding: 20px;
     padding-bottom: 0;
-
-
 }
 
 .img-discription {
@@ -111,7 +104,6 @@
     line-height: 35px;
     text-decoration-line: underline;
 }
-
 
 
 /* second section syle */
@@ -154,7 +146,6 @@
     width: 342px;
     height: 396px;
     align-items: center;
-
 }
 
 /* third section style */
@@ -180,16 +171,16 @@
 }
 
 /* bonus related style */
+.bonus-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .bonus-img {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    gap: 24px;
-}
-
-.bonus-container {
-    width: 80%;
-    margin: 0 auto;
+    /* gap: 24px; */
 }
 
 .b-img {
@@ -208,9 +199,9 @@
 }
 
 .get-deal-content {
-
     padding: 122px 0;
     text-align: center;
+    margin-top: 48px;
 }
 
 .get-deal-title {
@@ -232,6 +223,8 @@
     background: #FFF;
     width: 45%;
     padding: 20px;
+    border: none;
+    margin-right: 14px;
 }
 
 /* footer section style*/

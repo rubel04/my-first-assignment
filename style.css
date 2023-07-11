@@ -59,6 +59,56 @@
 }
 
 
+
+
+/* second section style */
+.folwer-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.folower-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.image-container {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    gap: 17px;
+
+
+}
+
+.img-primary {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px;
+    padding-bottom: 0;
+
+
+}
+
+.img-discription{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+
+/* third section syle */
 .hot-content {
     display: flex;
     justify-content: space-between;
@@ -100,18 +150,24 @@
 
 }
 
-.banner-pic {
-    align-items: center;
-    width: 1440px;
-    height: 449px;
-    margin: 140px 240px;
-}
-
-.Instagram-container{
+/* four section style */
+.Instagram-container {
     width: 80%;
-    
+    margin: 0 auto;
 }
 
-.instagram-content{
+.instagram-img{
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
+    gap: 24px;
+
+}
+
+
+
+
+/* fifth section style */
+.get-deal-container{
+    background-image: url('../my-first-assignment/image/Rectangle\ 9.png');
 }

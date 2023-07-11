@@ -62,10 +62,11 @@
 
 
 /* first section style */
-.featured-folower-container{
+.featured-folower-container {
     width: 80%;
     margin: 0 auto;
 }
+
 .folwer-title {
     color: #272727;
     text-align: center;
@@ -138,6 +139,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin: 24px 0;
 }
 
 .hot-image {
@@ -159,6 +161,14 @@
 .Instagram-container {
     width: 80%;
     margin: 0 auto;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
 }
 
 .instagram-img {
@@ -190,17 +200,17 @@
 
 /* four section style */
 
-.get-deal-container{
-    width: 80%;
+.get-deal-container {
+    width: 1440px;
+    height: 449px;
     margin: 0 auto;
+    background-image: url('image/get-deal.png');
 }
 
 .get-deal-content {
-    background-image: url('image/get-deal.png');
-    background-repeat: no-repeat;
-    /* padding: 120px 0; */
 
-
+    padding: 122px 0;
+    text-align: center;
 }
 
 .get-deal-title {
@@ -217,14 +227,12 @@
     font-weight: 400;
 }
 
-.get-deal-form {
-    /* text-align: center; */
+.input-box {
+    border-radius: 8px;
+    background: #FFF;
+    width: 45%;
+    padding: 20px;
 }
-
-.form {
-    /* padding: 22px 22px; */
-}
-
 
 /* footer section style*/
 .footer {

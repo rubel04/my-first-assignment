@@ -13,12 +13,19 @@
     border-style: none;
 }
 
+.primary-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 .primary-description {
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
-
 
 
 /* header related style */
@@ -26,6 +33,12 @@
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .header-content {
@@ -43,4 +56,49 @@
     width: 635px;
     height: 800px;
     margin: 50px 200px 0 0;
+}
+
+/* Our Featured Flowers section strated */
+/* .folowers-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+    gap: 40px;
+}
+
+
+
+.folowers-one {
+    
+}
+.pic-one{
+   
+} */
+.hot-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px;
+    gap: 200px;
+    align-items: center;
+}
+
+.hot-container {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hot-image{
+    margin: 100px;
 }
